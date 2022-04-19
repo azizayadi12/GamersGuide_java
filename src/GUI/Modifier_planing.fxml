@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/18" fx:controller="GUI.modifie_seance_controller">
+   <children>
+      <TextField fx:id="id" alignment="CENTER" layoutX="199.0" layoutY="51.0" opacity="0.39" text="ID" />
+      <TextArea fx:id="description" layoutX="173.0" layoutY="116.0" opacity="0.4" prefHeight="200.0" prefWidth="200.0" text="Description" />
+      <TextField fx:id="titre" alignment="CENTER" layoutX="199.0" layoutY="84.0" opacity="0.39" text="Titre" />
+      <Button fx:id="jj" layoutX="247.0" layoutY="337.0" mnemonicParsing="false" onAction="#jj" text="Button" />
+   </children>
+</AnchorPane>
